@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/cdes/m3dood.svg?branch=master)](https://travis-ci.org/cdes/m3dood)
-[![NPM](https://img.shields.io/npm/v/:m3dood.svg)](https://www.npmjs.com/package/m3dood)
+[![NPM](https://img.shields.io/npm/v/m3dood/latest.svg)](https://www.npmjs.com/package/m3dood)
 
 
 <h1 align="center">M3dood معدود</h1>
