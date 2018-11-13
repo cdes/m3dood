@@ -31,14 +31,18 @@ $ npm i m3dood
 ```js
 import m3dood from 'm3dood';
 
-const books = m3dood(3, "كتاب", "كتابان", "كتب");
+// initilize your ma3dood
+const books = m3dood("كتاب", "كتابان", "كتب");
+const libraries = m3dood("مكتبة", "مكتبتان", "مكتبات");
 
-console.log(books);
+// use it
+console.log(books(3), libraries(2));
 ```
 
 this will return
 ```js
 "3 كتب"
+"مكتبتان"
 ```
 
 <h3> Examples </h3>
