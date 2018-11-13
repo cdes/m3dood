@@ -1,0 +1,10 @@
+{
+  "name": "m3dood",
+  "version": "1.0.0",
+  "description": "A function to get the grammatically correct \"m3dood\" for a number.",
+  "main": "index.js",
+  "repository": "https://github.com/cdes/m3dood",
+  "author": "Ahmed Al Haddad <haddad@ah.sa>",
+  "license": "MIT",
+  "private": false
+}
