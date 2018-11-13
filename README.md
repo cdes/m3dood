@@ -45,8 +45,8 @@ this will return
  <li>3 كتب</li>
  <li>10 كتب</li>
  <li>11 كتاب</li>
- <li>99 كتاب</li>
  <li>101 من الكتب</li>
+ <li>103 كتب</li>
 </ul>
 
 <h3>Contributing</h3>
