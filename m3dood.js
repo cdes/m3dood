@@ -5,17 +5,10 @@
  * - كتاب واحد
  * - كتابان
  * - 3 كتب
- * - 9 كتب
  * - 10 كتب
  * - 11 كتاب
- * - 12 كتاب
- * - 13 كتاب
- * - 60 كتاب
- * - 99 كتاب
- * - 100 كتاب
  * - 101 من الكتب
- * - 1001 من الكتب
- * - 9045 من الكتب
+ * - 103 كتب
  * @param {number} count - The count of your entity.
  * @param {string} singular - The singular noun of the entity, e.g. "كتاب"
  * @param {string} dual - The dual noun of the entity, e.g. "كتابان"
