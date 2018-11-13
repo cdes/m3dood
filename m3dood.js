@@ -45,6 +45,10 @@ function m3dood (count, singular, dual, plural, isFemale) {
     one = 'واحدة';
   }
 
+  function between(number, first, last) {
+      return number > first && number < last
+  }
+
   function getProperM3dood(count) {
     if (count === 0) {
       return `دون ${plural}`
@@ -55,14 +59,20 @@ function m3dood (count, singular, dual, plural, isFemale) {
     else if (count === 2) {
       return dual
     }
-    else if (count > 2 && count < 11) {
+    else if (between(count, 2, 11)) {
       return `${count} ${plural}`
     }
-    else if (count > 10 && count < 101) {
+    else if (between(count, 10, 101)) {
       return `${count} ${singular}`
     }
-    else if (count > 100) {
+    else if (count % 100 === 1 || count % 100 === 2 ) {
       return `${count} من ال${plural}`
+    }
+    else if (between(count % 100, 2, 11)) {
+      return `${count} ${plural}`
+    }
+    else if (count % 100 > 10) {
+      return `${count} ${singular}`
     }
   }
 
