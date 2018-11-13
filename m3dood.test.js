@@ -1,4 +1,4 @@
-const m3dood = require('./m3dood')
+var m3dood = require('./m3dood')
 
 var maleEntity = ["كتاب", "كتابان", "كتب"]
 var femaleEntity = ["مكتبة", "مكتبتان", "مكتبات"]
