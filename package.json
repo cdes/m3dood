@@ -1,7 +1,7 @@
 {
   "name": "m3dood",
   "version": "1.0.0",
-  "description": "A function to get the grammatically correct \"m3dood\" for a number.",
+  "description": "A function to get the grammatically correct \"m3dood\" for a number in Arabic.",
   "main": "index.js",
   "repository": "https://github.com/cdes/m3dood",
   "author": "Ahmed Al Haddad <haddad@ah.sa>",
